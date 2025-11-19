@@ -97,15 +97,105 @@ justify-content: center;
 
 }
 
-.estrutura-titulo{
+.titulo-primario{
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   padding: 20px;
 }
 
-.titulo-primario{
+.estrutura-titulo{
   justify-content: center;
   display: flex;
 
+}
+
+.produtos{
+   height: 350px;
+   width: 190px;
+
+}
+
+.valor{
+  font-weight: bold;
+   font-size: 20px;
+   color: #ffffff;
+   display: flex;
+   justify-content: center
+
+}
+
+.cores{
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+
+}
+
+.vermelho{
+  background-color: red;
+
+
+}
+
+.azul{
+  background-color: blue;
+
+
+}
+
+.laranja{
+   background-color: orange;
+
+}
+
+.preto{
+  background-color: black;
+
+}
+
+.caixa-cores{
+  display: flex;
+  flex-direction: row;
+     justify-content: center;
+   gap: 10px;
+ 
+}
+
+  .carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px; 
+  }
+
+  .banner2 {
+  background-image: url("./assets/x-box.png");/* imagem para o fundo*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 1000px;
+  border-radius: 25px;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+
+
+}
+
+.texto-banner2 {
+  font-size: 30px;/*tamanho do titulo*/
+  color: #ffffff;
+ 
+}
+
+.btn-menu2 {
+  width: 175px;
+  height: 45px;
+  border-radius: 35px;/*borda do botao*/
+  background-color: #333333;/*cor do botao*/
+  color: #ffffff;
+  font-weight: bold;/*fonte do botao*/
+  border: none;/*remove a borda*/
+  margin: 25px;/*espacamento externo*/
 }
