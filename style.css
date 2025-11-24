@@ -170,7 +170,7 @@ justify-content: center;
   }
 
   .banner2 {
-  background-image: url("./assets/x-box.png");/* imagem para o fundo*/
+  background-image: url("./assets/xbox.png");/* imagem para o fundo*/
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -199,3 +199,17 @@ justify-content: center;
   border: none;/*remove a borda*/
   margin: 25px;/*espacamento externo*/
 }
+
+  
+  
+
+  .btn3{
+ width: 500px;
+  height: 45px;
+  border-radius: 35px;/*borda do botao*/
+  background-color: #4e4e4e;/*cor do botao*/
+  color: #6e6e6e;
+  font-weight: bold;/*fonte do botao*/
+  border: none;/*remove a borda*/
+  margin: 25px;/*espacamento externo*/
+  }
