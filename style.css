@@ -222,7 +222,7 @@ justify-content: center;
 
   .direitos-autorais{
     background-color: #333333;
-  height: 250px;
+  height: 390px;
   width: 1000px;
   margin: auto;
   }
@@ -236,3 +236,25 @@ justify-content: center;
     font-size: 18px;
     margin: 25px;
   }
+
+  .icones-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 55px;
+
+
+}
+
+.bi{
+    color: #ffffff;
+
+}
+
+.texto-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
